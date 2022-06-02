@@ -41,7 +41,7 @@ services:
       - rabbitmq
     restart: always
     environment:
-      - SENDGRID_NOREPLY_EMAIL=no-reply@igmu.app
+      - SENDGRID_NOREPLY_EMAIL=magny@magny.com.au
       - RABBITMQ_URL=amqp://rabbitmq:5672
   logger: 
     build:
