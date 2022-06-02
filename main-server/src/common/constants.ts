@@ -1,0 +1,5 @@
+export const USER_COLLECTION = 'User';
+export const VERIFICATION_CODE_EXPIRY_DURATION = 3 * 60 * 1000; // 3 minutes
+
+export const EMAIL_MICROSERVICE_NAME = 'EMAIL_SERVICE';
+export const LOGGER_MICROSERVICE_NAME = 'LOGGER_SERVICE';
