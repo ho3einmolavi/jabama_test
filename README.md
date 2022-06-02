@@ -1,4 +1,4 @@
-# Authentication System (back-end)
+# Authentication System (Back-End)
 
 This app is written in [Nodejs](https://nodejs.org/en/), [TypeScript](https://www.typescriptlang.org/) with the [Nestjs framework](https://nestjs.com/). I provided documentation for the APIs using [Swagger](https://swagger.io/).
 The database is [MongoDB](https://www.mongodb.com/) which is created and run using [docker-compose](https://docs.docker.com/compose/).
