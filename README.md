@@ -16,7 +16,7 @@ These Microservices are communicating with each other through [AMQP](https://www
 ## How to run the application
 
 * First clone the repository
-* `cd communere-test/`
+* `cd jabama_test/`
 * Run `docker-compose up -d --build`
 
 Now the application is up and running on port 80.
