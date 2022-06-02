@@ -6,11 +6,11 @@ For sending verification code to users, I used [SendGrid](https://sendgrid.com/)
 For deployment I used [PM2](https://pm2.keymetrics.io/) which is a daemon process manager that will help you manage and keep your application online.
 
 This project includes 3 microservices.
-* The Main server which is responsible for handling signup, verify email and login APIs.
-* The Mail server which is responsible for sending emails.
-* the Logger server which is responsible for logging the request and response.
+* The Main server is responsible for handling signup and verifying email and login APIs.
+* The Mail server is responsible for sending emails.
+* The Logger server which is responsible for logging the request and response.
 
-These Microservices are communicating with each other through AMQP protocol using [RabbitMQ](https://www.rabbitmq.com/) Message broker.
+These Microservices are communicating with each other through [AMQP](https://www.amqp.org/) protocol using [RabbitMQ](https://www.rabbitmq.com/) Message broker.
 
 
 ## How to run the application
